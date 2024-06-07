@@ -1,0 +1,442 @@
+2024-06-03T07:50:04.063285Z [944.161944955] user.info com.webos.app.home [] com.webos.app.home NL_QCARD_CLICKED {"app_id":"com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:04.066009Z [944.164635399] user.info sam [] SAM NL_APP_LAUNCH_BEGIN {"app_id":"com.webos.app.sportsteamsettings","caller_id":"com.webos.app.home","mode":"launcher"}
+2024-06-03T07:50:04.066204Z [944.164830029] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb","action":"created_launching_item"}
+2024-06-03T07:50:04.066314Z [944.164938362] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","is_launch_first_app":"false","auto_installation":"true","is_last_input_app":"f
+alse","automatic":"false"} request-changeRunningAppId: empty
+2024-06-03T07:50:04.066408Z [944.165031807] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","caller_id":"com.webos.app.home","launch_reason":"launcher","check_update":"tru
+e","check_lock":"true","preload_mode":"empty","keep_alive":"false","show_splash":"true","show_spinner":"true","shared_folder_path":""}
+2024-06-03T07:50:04.066552Z [944.165177436] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","params":{"storeCaller":"home"}}
+2024-06-03T07:50:04.066684Z [944.165308695] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","replace_params":{}}
+2024-06-03T07:50:04.066781Z [944.165405510] user.info sam [] SAM APP_LAUNCH {"CLOCK":944.165,"app_id":"com.webos.app.sportsteamsettings","status":"start_prelaunching","PerfType":"AppLaunch","PerfGroup
+":"com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:04.066916Z [944.165540547] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"set_prelaunching_stage_for_eula"} uid: b8341ea6-45f0-4cac-9b9e-c5dd82
+06e8eb
+2024-06-03T07:50:04.067012Z [944.165636140] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"set_prelaunching_stage_for_applock"} uid: b8341ea6-45f0-4cac-9b9e-c5d
+d8206e8eb
+2024-06-03T07:50:04.071261Z [944.169890473] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","stage":15,"status":"passed_verifying_eula"}
+2024-06-03T07:50:04.078457Z [944.177089177] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","stage":17,"status":"passed_checking_applock"}
+2024-06-03T07:50:04.078744Z [944.177371436] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb","status":"prelaunching_done","laun
+ching_stage_in_detail":23}
+2024-06-03T07:50:04.078864Z [944.177488621] user.info sam [] SAM APP_LAUNCH {"CLOCK":944.177,"app_id":"com.webos.app.sportsteamsettings","status":"start_memory_checking","PerfType":"AppLaunch","PerfGr
+oup":"com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:04.078960Z [944.177584769] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"start_memory_setting"} payload: {"defaultWindowType":"card","appId":"
+com.webos.app.sportsteamsettings","requiredMemory":0,"containerBasedApp":false,"appType":"web","relaunch":false,"windowGroup":false}
+2024-06-03T07:50:04.079057Z [944.177680807] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"getAppLifeEvents","payload":{"event":"splash","appId":"com.webos.app.sportsteamsettings","splashBackground"
+:"file:///usr/palm/applications/com.webos.app.sportsteamsettings/sys-assets/sportsteamsettings_splash.png","showSpinner":true,"title":"?ㅽ룷痢??뚮엺","showSplash":true,"returnValue":true}}
+2024-06-03T07:50:04.079149Z [944.177773399] user.info memchute [] MM MEMMGR_SERVICE {"Launch":"com.webos.app.sportsteamsettings","Required":120,"AppType":"web","WinType":"card","WinGroup":"F","Preload
+":"F","Container":"F","Relaunch":"F"}
+2024-06-03T07:50:04.079492Z [944.178119881] user.info memchute [] MM MEMMGR_MEMMGR {"appId":"com.webos.app.sportsteamsettings","free":806} comment : launch by required memory(adv)
+2024-06-03T07:50:04.080245Z [944.178875881] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb"} removed from checking queue
+2024-06-03T07:50:04.080435Z [944.179116214] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb","status":"memory_checking_done","l
+aunching_stage_in_detail":25}
+2024-06-03T07:50:04.080604Z [944.179229029] user.info sam [] SAM APP_LAUNCH {"CLOCK":944.178,"app_id":"com.webos.app.sportsteamsettings","status":"start_launching","PerfType":"AppLaunch","PerfGroup":"
+com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:04.080699Z [944.179323362] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"add_to_wam_loading"}
+2024-06-03T07:50:04.080793Z [944.179417807] user.info sam [] SAM RUNTIME_STATUS {"app_id":"com.webos.app.sportsteamsettings","current":0,"new":1} runtime_status_changed
+2024-06-03T07:50:04.080890Z [944.179513769] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"getAppLifeEvents","payload":{"event":"launch","appId":"com.webos.app.sportsteamsettings","returnValue":true
+,"reason":"launcher","launchPointId":"com.webos.app.sportsteamsettings_default"}}
+2024-06-03T07:50:04.081160Z [944.179786177] user.info sam [] SAM LOADING_LIST {"app_id":"com.webos.app.sportsteamsettings"} added
+2024-06-03T07:50:04.081269Z [944.179892955] user.info sam [] SAM LIFE_STATUS {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb","current":0,"new":2} life_status_
+changed
+2024-06-03T07:50:04.081363Z [944.179986732] user.info WebAppMgr [] WAM APPLAUNCH_START {"CLOCK":944.179,"PerfType":"AppLaunch","PerfGroup":"com.webos.app.sportsteamsettings","APP_ID":"com.webos.app.sp
+ortsteamsettings"} params : {     "reason": "launcher",     "storeCaller": "home" }
+2024-06-03T07:50:04.081596Z [944.180222547] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"getAppLifeStatus","payload":{"reason":"launcher","status":"launching","appId":"com.webos.app.sportsteamsett
+ings","type":"web"}}
+2024-06-03T07:50:04.081735Z [944.180360214] user.info sam [] SAM APP_LAUNCHED {"app_id":"com.webos.app.sportsteamsettings","type":"web","pid":"","start_time":944165258362.000000,"collapse_time":149626
+30.000000}
+2024-06-03T07:50:04.087447Z [944.186080881] user.info tvrm [] TVRMSRV TVRM_INFOMGR_STATUS {"status":"app_life_status_info_updated","app_status":"launching","app_id":"com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:04.087778Z [944.186403732] user.info surface-manager [] surface-manager LSM {} applyOrientation, action: apply_orientation, current_orientation: landscape, splash_app_id: com.webos.ap
+p.sportsteamsettings, is_rotaion_target_app: false
+2024-06-03T07:50:04.087879Z [944.186503621] user.info surface-manager [] surface-manager LSM {} open, StarfishImageSplash Image path... file:///usr/palm/applications/com.webos.app.sportsteamsettings/s
+ys-assets/sportsteamsettings_splash.png
+2024-06-03T07:50:04.088926Z [944.187551251] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetAppId(const string&):77] sets as com.webos.app.sportsteamsettin
+gs.(web_contents:0x1c1b9f8)
+2024-06-03T07:50:04.091049Z [944.189675992] user.info umediaserver [] ums.default APP_STATUS_UPDATE {"TIMESTAMP":944.188618399,"CODE_POINT":"<AppObserver.cpp:appLifeStatusCallback(124)>"} appLifeStatu
+sEvt: {"reason":"launcher","status":"launching","appId":"com.webos.app.sportsteamsettings","type":"web"}
+2024-06-03T07:50:04.092272Z [944.190902214] user.info airplay [] AIRPLAY AIRPLAY {} [webos_luna_info_setAppLifeStatus, 168] _gAppLifeStatus.appId : com.webos.app.sportsteamsettings, _gAppLifeStatus.st
+atus : launching, _gAppLifeStatus.bgStatus : , _gAppLifeStatus.reason : launcher
+2024-06-03T07:50:04.126387Z [944.225023362] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetAppId(const string&):77] sets as com.webos.app.sportsteamsettin
+gs.(web_contents:0x1c1b9f8)
+2024-06-03T07:50:04.128069Z [944.226703214] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} supportDolbyHDRContents:false
+2024-06-03T07:50:04.128265Z [944.226892955] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} supportHDR:
+2024-06-03T07:50:04.128459Z [944.227086769] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} supportDolbyTVATMOS:false
+2024-06-03T07:50:04.128581Z [944.227207029] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} edidType:ac3
+2024-06-03T07:50:04.129086Z [944.227717103] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} Voice User Script exists : /etc/wam/voiceUserScript.js
+2024-06-03T07:50:04.134112Z [944.232746140] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetBlockMediaPlay(bool):188] sets as false.(web_contents:0x1c1b9f8
+:com.webos.app.sportsteamsettings)
+2024-06-03T07:50:04.134769Z [944.233400621] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetWindowType(const string&):231] sets as card.(web_contents:0x1c1
+b9f8:com.webos.app.sportsteamsettings)
+2024-06-03T07:50:04.134930Z [944.233556251] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetSupports360Content(bool):202] sets as false.(web_contents:0x1c1
+b9f8:com.webos.app.sportsteamsettings)
+2024-06-03T07:50:04.138114Z [944.236746769] user.warning WebAppMgr [] WAM PALMSYSTEM {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} webOSSystem is not initialized. key:launchReason, value:launc
+her
+2024-06-03T07:50:04.138296Z [944.236924436] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetEnableBackgroundRun(bool):90] sets as false.(web_contents:0x1c1
+b9f8:com.webos.app.sportsteamsettings)
+2024-06-03T07:50:04.138685Z [944.237317362] user.warning WebAppMgr [] WAM PALMSYSTEM {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} webOSSystem is not initialized. key:launchParams, value:{
+ "storeCaller": "home" }
+2024-06-03T07:50:04.144801Z [944.243434177] user.info surface-manager [] surface-manager LSM {} WebOSSurfaceItem::setAppId, appIdChanged: QWaylandQuickSurface(0x1c9cec8, name = "surface_com.webos.app.
+sportsteamsettings_WEBOS_WINDOW_TYPE_CARD") WebOSSurfaceItem(0x189cfc0, name="surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD", parent=0x0, geometry=0,0 -1x-1)
+2024-06-03T07:50:04.159247Z [944.257881844] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetIsPreload(bool):104] sets as false.(web_contents:0x1c1b9f8:com.
+webos.app.sportsteamsettings)
+2024-06-03T07:50:04.159511Z [944.258140029] user.info WebAppMgr [] WAM WEBPAGE_LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} m_launchParams:{     "storeCaller": "home" }
+2024-06-03T07:50:04.159647Z [944.258271881] user.info WebAppMgr [] WAM WEBPAGE_LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":0} loadDefaultUrl()
+2024-06-03T07:50:04.160846Z [944.259473288] user.info WebAppMgr [] WAM START_LAUNCHURL {"APP_ID":"com.webos.app.sportsteamsettings","PID":0}
+2024-06-03T07:50:04.163948Z [944.262583473] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb"} removed from checking queue
+2024-06-03T07:50:04.164137Z [944.262763140] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"received_launch_return_from_wam"}
+2024-06-03T07:50:04.164243Z [944.262867695] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb","status":"launching_done"}
+2024-06-03T07:50:04.164337Z [944.262960955] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"finish_launching","is_last_fullscreen_app":"false","mode":"normal"}
+2024-06-03T07:50:04.164659Z [944.263284103] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","uid":"b8341ea6-45f0-4cac-9b9e-c5dd8206e8eb","action":"removed_launching_item"}
+
+2024-06-03T07:50:04.174334Z [944.272968732] user.info sam [] SAM WAM_RUNNING {"app_id":"com.webos.app.sportsteamsettings","status":"added","pid":"1006","webprocid":"9996","is_changed":"false"}
+2024-06-03T07:50:04.174619Z [944.273249547] user.info sam [] SAM RUNNING_LIST {"app_id":"com.webos.app.sportsteamsettings","pid":"9996","webprocid":"9996","default_window_type":"card","status":"added"
+}
+2024-06-03T07:50:04.174764Z [944.273391103] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"running","payload":{"running":[{"webprocessid":"","defaultWindowType":"home","id":"com.webos.app.home","pro
+cessid":"786","appType":"native"},{"webprocessid":"","defaultWindowType":"card","id":"com.webos.app.hdmi1","processid":"783","appType":"native"},{"webprocessid":"9996","defaultWindowType":"card","id":
+"com.webos.app.sportsteamsettings","processid":"9996","appType":"web"}],"returnValue":true}}
+2024-06-03T07:50:04.175061Z [944.273689251] user.info sam [] SAM APP_LAUNCH {"app_id":"com.webos.app.sportsteamsettings","status":"remove_from_wam_loading"}
+2024-06-03T07:50:04.175192Z [944.273818066] user.info sam [] SAM RUNTIME_STATUS {"app_id":"com.webos.app.sportsteamsettings","current":1,"new":3} runtime_status_changed
+2024-06-03T07:50:04.177495Z [944.276128621] user.info asm [] ASM.COMMON API_CALLBACK {} [getRunningAppListCallback] message : {"running":[{"webprocessid":"","defaultWindowType":"home","id":"com.webos.
+app.home","processid":"786","appType":"native"},{"webprocessid":"","defaultWindowType":"card","id":"com.webos.app.hdmi1","processid":"783","appType":"native"},{"webprocessid":"9996","defaultWindowType
+":"card","id":"com.webos.app.sportsteamsettings","processid":"9996","appType":"web"}],"returnValue":true}
+2024-06-03T07:50:04.177713Z [944.276341251] user.info memchute [] MM MEMMGR_MEMUNIT {"appId":"com.webos.app.sportsteamsettings"} is launched
+2024-06-03T07:50:04.177822Z [944.276446029] user.info memchute [] MM MEMMGR_GROUP {} add group(com.webos.app.sportsteamsettings)
+2024-06-03T07:50:04.178842Z [944.277477140] user.info iconnectivity [] ICS INFO {} [_xpa_appinfo_getRunningAppInfoCB : 224] (RESP) => {"running":[{"webprocessid":"","defaultWindowType":"home","id":"co
+m.webos.app.home","processid":"786","appType":"native"},{"webprocessid":"","defaultWindowType":"card","id":"com.webos.app.hdmi1","processid":"783","appType":"native"},{"webprocessid":"9996","defaultWi
+ndowType":"card","id":"com.webos.app.sportsteamsettings","processid":"9996","appType":"web"}],"returnValue":true} (Token:30)
+2024-06-03T07:50:04.181317Z [944.279950325] user.debug webos-preload-manager [] webos-preload-manager DBGMSG {} RunningList = [ com.webos.app.home(786) com.webos.app.hdmi1(783) com.webos.app.sportstea
+msettings(9996) ]
+2024-06-03T07:50:04.662158Z [944.760793325] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [START m]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:04.830444Z [944.929087547] user.info WebAppMgr [] chromium.media media-prefs {} [9996]media_platform_prefs.cc(290) SetApplicationId : application_id_ = com.webos.app.sportsteamsetting
+s
+2024-06-03T07:50:04.899898Z [944.998535065] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [CONNECT]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:04.962811Z [945.061446510] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [... 70%]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:04.966621Z [945.065248584] user.info surface-manager [] surface-manager LSM {} WebOSExported::WebOSExported, Window status of surface item ( WebOSSurfaceItem(0x189cfc0, name="surfaceI
+tem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD", parent=0x0, geometry=0,0 -1x-1) ) for exporter :  Qt::WindowNoState
+2024-06-03T07:50:04.966952Z [945.065579584] user.info surface-manager [] surface-manager LSM {} WebOSExported::setVideoDisplayWindow, item  WebOSSurfaceItem(0x189cfc0, name="surfaceItem_com.webos.app.
+sportsteamsettings_WEBOS_WINDOW_TYPE_CARD", parent=0x0, geometry=0,0 -1x-1)  is not mapped yet on  ""
+2024-06-03T07:50:04.967321Z [945.065953287] user.info surface-manager [] surface-manager LSM {} WebOSExported::updateOrientation, surface item=  WebOSSurfaceItem(0x189cfc0, name="surfaceItem_com.webos
+.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD", parent=0x0, geometry=0,0 -1x-1)  orientation changed :  Qt::LandscapeOrientation  on  ""
+2024-06-03T07:50:04.972261Z [945.070893843] user.info WebAppMgr [] chromium.raw Preference {} [9996][void blink::WebOSPreference::OnDataUpdated(const blink::WebOSPreferenceData&, const blink::WebOSPre
+ferenceData&):203] window_type will be changed from unknown to card.(com.webos.app.sportsteamsettings)
+2024-06-03T07:50:05.067219Z [945.165884139] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [... 70%]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:05.170924Z [945.269563954] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [... 80%]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:05.175344Z [945.273978028] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} firstFrameVisuallyCommitted
+2024-06-03T07:50:05.175552Z [945.274178065] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} Not hidden window, preload, call showWindow
+2024-06-03T07:50:05.175658Z [945.274282510] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings"} WebAppWayland::showWindow()
+2024-06-03T07:50:05.175756Z [945.274380176] user.info WebAppMgr [] WAM RESUME_ALL {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} resumeWebPageAll
+2024-06-03T07:50:05.175851Z [945.274475065] user.info WebAppMgr [] WAM RESUME_WEBPAGE {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} m_isSuspended:false; Already resume, return
+2024-06-03T07:50:05.175950Z [945.274575213] user.info WebAppMgr [] WAM RESUME_MEDIA {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} resumeWebPageMedia; Not paused; return
+2024-06-03T07:50:05.176090Z [945.274716250] user.info WebAppMgr [] chromium.raw Preference {} [2091][void webos::WebOSPreferenceHost::SetMemoryOptimizeLevel(int):160] sets as 0.(web_contents:0x1c1b9f8
+:com.webos.app.sportsteamsettings)
+2024-06-03T07:50:05.176707Z [945.275339954] user.info WebAppMgr [] WAM WEBAPP_STAGE_ACITVATED {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996}
+2024-06-03T07:50:05.252432Z [945.351068843] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [...100%]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:05.253541Z [945.352182695] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [...100%]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:05.253875Z [945.352499584] user.info WebAppMgr [] WAM LOAD {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} [FINISH ]file:///usr/palm/applications/com.webos.app.sportsteamsett
+ings/index.multi.html
+2024-06-03T07:50:05.254004Z [945.352628806] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} WebPageBase::handleLoadFinished; m_suspendAtLoad : false
+2024-06-03T07:50:05.254106Z [945.352731028] user.info WebAppMgr [] WAM PALMSYSTEM {"APP_ID":"com.webos.app.sportsteamsettings","PID":9996} Update; key:trustLevel; value:trusted
+2024-06-03T07:50:05.273592Z [945.372230028] user.info WebAppMgr [] com.webos.app.sportsteamsettings VOICE_CONTROL {"APP_ID":"com.webos.app.sportsteamsettings"} call register
+2024-06-03T07:50:05.277332Z [945.376085139] user.info voiceconductor [] VOICEFW API_REQUEST {"category":"/interactor","method":"register","caller":"com.webos.app.sportsteamsettings","status":"received
+_request"} utoken: nuwT2EeR.2
+2024-06-03T07:50:05.277667Z [945.376294472] user.info voiceconductor [] VOICEFW INTERACTOR {"id":"com.webos.app.sportsteamsettings","status":"registered"} token: 2
+2024-06-03T07:50:05.402773Z [945.501410658] user.warning WebAppMgr [] wam.jsconsole WARNING {}  W[2091:2091:CONSOLE(2)] "com.webos.app.sportsteamsettings \"Synchronous XMLHttpRequest on the main threa
+d is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.\", source: \u003Cembedded> (2)\n"
+2024-06-03T07:50:05.569567Z [945.668205287] user.info accountmanager [] accountmanager PRIVATE {} getLoginUserData {"serviceName":"LGE","subscribe":true} from com.webos.app.sportsteamsettings-2091 (Ap
+pID:com.webos.app.sportsteamsettings)
+2024-06-03T07:50:05.570200Z [945.668840695] user.info accountmanager [] accountmanager ACCOUNT {} [_getSenderName] return AppID[com.webos.app.sportsteamsettings] to check permission
+2024-06-03T07:50:05.570598Z [945.669229620] user.info configd [] configd CONFIGDSERVICE {} [getConfigs] : Client (com.webos.app.sportsteamsettings-2091) Request ({   "configNames": [     "tv.model.sup
+portDvrReady",     "tv.rmm.dvrReady",     "com.palm.app.settings.disableAppReturn",     "tv.model.sysType",     "profile.list"   ] } )
+2024-06-03T07:50:05.570746Z [945.669372583] user.info configd [] configd CONFIGDSERVICE {} [msgGetConfigs] : senderService (com.webos.app.sportsteamsettings-2091)
+2024-06-03T07:50:05.572015Z [945.670638620] user.info configd [] configd CONFIGDSERVICE {} [getConfigs] : Client (com.webos.app.sportsteamsettings-2091) Response ({   "subscribed": false,   "configs":
+ {     "profile.list": [       "aiRecommendation",       "audioRenderer",       "blockedAppList",       "camera",       "dpms",       "edid",       "hdmi",       "home",       "idleApp",       "keyfil
+ter",       "monitor",       "mrcu",       "musicRecognition",       "storeDemo",       "supportHdmiSwitching",       "tts",       "tunerless"     ],     "tv.rmm.dvrReady": true,     "com.palm.app.set
+tings.disableAppReturn": true,     "tv.model.supportDvrReady": false,     "tv.model.sysType": "DVB"   },   "returnValue": true } )
+2024-06-03T07:50:05.576482Z [945.675113695] user.info accountmanager [] accountmanager ACCOUNT {} [isAllowed] succed to get permission : serviceName [  LGE  ] callerId [  com.webos.app.sportsteamsetti
+ngs  ]
+2024-06-03T07:50:05.588923Z [945.687556991] user.info sportsalarm [] sportsalarm MSGID_DEFAULT {} getEvent called : {"subscribe":true}
+2024-06-03T07:50:05.589252Z [945.687876695] user.info accountmanager [] accountmanager ACCOUNT {} [isAllowed] succed to get permission : serviceName [  LGE  ] callerId [  com.webos.app.sportsteamsetti
+ngs  ]
+2024-06-03T07:50:05.635200Z [945.733839139] user.info eim [] EIM HANDLER {} {"RequestAll":false,"From":"com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:05.666108Z [945.764739954] user.info sdx [] sdx.logging LOG_SERVER_API {} _send [153] request url: getConfig, serviceName: service_setting_secure, method: REQ_SSL_POST_METHOD, caller:
+ com.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:05.672574Z [945.771206546] user.info sdx [] sdx.logging LOG_SERVER_API {} send [213] reply url: getConfig, serviceName: service_setting_secure, method: REQ_SSL_POST_METHOD, caller: co
+m.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:05.682302Z [945.780947583] user.info iepg [] IEPG API_REQUEST {"category":"/","method":"getChannelList","caller":"com.webos.app.sportsteamsettings","status":"received_request"} utoken
+: nuwT2EeR.46
+2024-06-03T07:50:05.699363Z [945.797998324] user.info configd [] configd CONFIGDSERVICE {} [getConfigs] : Client (com.webos.app.sportsteamsettings-2091) Request ({   "configNames": [     "tv.hw.graphi
+cResolution",     "tv.model.specialEditionType"   ],   "subscribe": true } )
+2024-06-03T07:50:05.699589Z [945.798217546] user.info configd [] configd CONFIGDSERVICE {} [msgGetConfigs] : senderService (com.webos.app.sportsteamsettings-2091)
+2024-06-03T07:50:05.700306Z [945.798934991] user.info configd [] configd CONFIGDSERVICE {} [getConfigs] : Client (com.webos.app.sportsteamsettings-2091) Response ({   "subscribed": true,   "configs":
+{     "tv.hw.graphicResolution": "1920x1080",     "tv.model.specialEditionType": "off"   },   "returnValue": true } )
+2024-06-03T07:50:05.703843Z [945.802475398] user.info nudge [] NUDGE NUDGE {} [INFO] [RequestNudge:136] NUDGE(nu_sports_alert_magic) REJECT -> STATE_TERMINATE
+2024-06-03T07:50:05.704035Z [945.802662954] user.info nudge [] NUDGE NUDGE {} [INFO] [requestNudgeHandler:355] Add Reject Reason (nu_sports_alert_magic, Reject, byTerminateState)
+2024-06-03T07:50:05.704208Z [945.802835954] user.info nudge [] NUDGE NUDGE {} [INFO] [replyNudgeResult_cb:570] ctx(0x14c2db0), - (nu_sports_alert_magic, Reject, byTerminateState)
+2024-06-03T07:50:05.967848Z [946.066485139] user.info sdx [] sdx.logging LOG_SERVER_API {} _send [153] request url: getSportInfo, serviceName: iot_sports_secure, method: REQ_SSL_POST_METHOD, caller: c
+om.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:05.971828Z [946.070455954] user.info sdx [] sdx.logging SDX {} _setup_for_communication: serviceName: iot_sports_secure
+2024-06-03T07:50:05.972242Z [946.070866842] user.info sdx [] sdx.logging SDX {} _setup_for_communication: url: https://qt2-KIC.sports.lgtviot.com/v4.0/getSportInfo
+2024-06-03T07:50:05.975949Z [946.074585176] user.info sdx [] sdx.logging LOG_SERVER_API {} _send [153] request url: app/list/003/006, serviceName: sdp_apps_secure, method: REQ_SSL_GET_METHOD, caller:
+com.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:06.257895Z [946.356545213] user.warning LunaSysService [] <default-lib> LS_DEPRECATED {"SENDER":"com.webos.app.sportsteamsettings-2091","SERVICE":"com.webos.app.sportsteamsettings-209
+1","CATEGORY":"/time","METHOD":"getEffectiveBroadcastTime","FLAGS":1} Deprecated method call
+2024-06-03T07:50:06.268138Z [946.366772805] user.info sdx [] sdx.logging LOG_SERVER_API {} request [68] reply url: getSportInfo, serviceName: iot_sports_secure, method: REQ_SSL_POST_METHOD, caller: co
+m.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:06.268391Z [946.367020139] user.info WebAppMgr [] com.webos.app.sportsteamsettings SPORT_SETTINGS {"getCurrentTime":1717401006}
+2024-06-03T07:50:06.271017Z [946.369651916] user.info sdx [] sdx.logging LOG_SERVER_API {} _send [153] request url: checkTournamentStatus, serviceName: iot_sports_secure, method: REQ_SSL_POST_METHOD,
+caller: com.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:06.275361Z [946.373987287] user.info surface-manager [] surface-manager LSM {} WebOSCoreCompositor::onSurfaceMapped, QWaylandQuickSurface(0x1c9cec8, name = "surface_com.webos.app.spor
+tsteamsettings_WEBOS_WINDOW_TYPE_CARD") WebOSSurfaceItem(0x189cfc0, name="surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD", parent=0x0, geometry=0,0 1920x1080) "com.webos.app.sport
+steamsettings" "_WEBOS_WINDOW_TYPE_CARD"
+2024-06-03T07:50:06.275944Z [946.374578694] user.info surface-manager [] LSM RECENTS {"app_id":"com.webos.app.sportsteamsettings","removed":"Y","status":"on_surface_removed_in_recents_model","where":"
+recentInfoRemoved"}
+2024-06-03T07:50:06.276577Z [946.375211027] user.info surface-manager [] LSM RECENTS_METHOD {"method":"listRecents","payload":"{\"appId\":\"com.webos.app.sportsteamsettings\",\"eventType\":\"removed\"
+}"}
+2024-06-03T07:50:06.293255Z [946.391891213] user.info surface-manager [] surface-manager LSM {} __reset_fullscreen_surface, [FULLSCREEN:Controller] __reset_fullscreen_surface:not_fullscreen, item = We
+bOSSurfaceItem(0x1c6cca0, "surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.293469Z [946.392097287] user.info surface-manager [] surface-manager LSM {} WebOSSurfaceItem::deleteCardSnapshot, [WebOSSurfaceItem:CARDSNAPSHOT] delete_card_snapshot_file ,  app_i
+d: "com.webos.app.sportsteamsettings" ,  file_path: "" ,  where: deleteCardSnapshot
+2024-06-03T07:50:06.293586Z [946.393529027] user.info surface-manager [] surface-manager LSM {} __processFullscreenRequest, [FULLSCREEN] __processFullscreenRequest. item = WebOSSurfaceItem(0x189cfc0,
+"surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.295134Z [946.393764472] user.info surface-manager [] surface-manager LSM {} __processFullscreenRequest, [FULLSCREEN] __processFullscreenRequest: allowed_fullscreen WebOSSurfaceItem
+(0x189cfc0, "surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.299452Z [946.398078620] user.info surface-manager [] surface-manager LSM {} onSurfaceAdded, [FULLSCREEN:surface] surfaceAdded (start) com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.301303Z [946.399940435] user.info surface-manager [] surface-manager LSM {} __handleNewFullscreenItem, [FULLSCREEN] handle new fullscreen item = WebOSSurfaceItem(0x189cfc0, "surfac
+eItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.305090Z [946.403715398] user.info surface-manager [] LSM NL_SURFACE_STATE_CHANGE {"CLOCK":946.401,"app_id":"com.webos.app.sportsteamsettings","screen_state":"FULLSCREEN"}
+2024-06-03T07:50:06.306100Z [946.404730101] user.info surface-manager [] surface-manager LSM {} setNextLayout, [FULLSCREEN] setNextLayout com.webos.app.sportsteamsettings normal main 0 0 1920 1080 lan
+dscape undefined on fullscreenContainer1
+2024-06-03T07:50:06.307300Z [946.405925990] user.info surface-manager [] surface-manager LSM {} onLayoutInfoUpdated, [FULLSCREEN] container1.containerInfo appId - com.webos.app.home, next appId-com.we
+bos.app.sportsteamsettings, mode-normal, role-main, active-false, visible-true, surfaceItem-WebOSSurfaceItem(0x19eee18, "surfaceItem_com.webos.app.home_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.307405Z [946.406030176] user.info surface-manager [] surface-manager LSM {} updateDecorationLayout, [Decoration] mode: normal role: main appId: com.webos.app.sportsteamsettings mul
+tiviewOrientation: landscape x: 0 y:0
+2024-06-03T07:50:06.308256Z [946.406893657] user.info surface-manager [] surface-manager LSM {} __setCurrentItem, [FULLSCREEN] fullscreen view currentItem is WebOSSurfaceItem(0x189cfc0, "surfaceItem_c
+om.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.308533Z [946.407157879] user.info surface-manager [] LSM RECENTS {"app_id":"com.webos.app.sportsteamsettings","fullscreen":true,"status":"db_backup","where":"updateRecentsDb"}
+2024-06-03T07:50:06.314793Z [946.413430805] user.info surface-manager [] surface-manager LSM {} assignPoliciesFromItem, access policy updated as per properties of WebOSSurfaceItem(0x189cfc0, "surfaceI
+tem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.318537Z [946.417171546] user.info surface-manager [] surface-manager LSM {} setSurfaceItem, [FULLSCREEN] surfaceItem is changed from WebOSSurfaceItem(0x19eee18, "surfaceItem_com.we
+bos.app.home_WEBOS_WINDOW_TYPE_CARD") to WebOSSurfaceItem(0x189cfc0, "surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD") on fullscreenContainer1
+2024-06-03T07:50:06.325933Z [946.424566176] user.info surface-manager [] LSM RECENTS {"app_id":"com.webos.app.sportsteamsettings","fullscreen":true,"status":"db_backup","where":"updateRecentsDb"}
+2024-06-03T07:50:06.355059Z [946.453693768] user.info surface-manager [] surface-manager LSM {} __updateLayoutInfoBasedOnRotation, [FULLSCREEN][updateLayoutInfoBasedOnRotation-START] container:fullscr
+eenContainer1 appId:com.webos.app.sportsteamsettings layoutInfo (rotation:0 width:1920 height:1080 x:0 y:0)
+2024-06-03T07:50:06.355258Z [946.453886768] user.info surface-manager [] surface-manager LSM {} __updateLayoutInfoBasedOnRotation, [FULLSCREEN][updateLayoutInfoBasedOnRotation-END] container:fullscree
+nContainer1 appId:com.webos.app.sportsteamsettings layoutInfo (rotation:0 width:1920 height:1080 x:0 y:0)
+2024-06-03T07:50:06.355696Z [946.454325620] user.info surface-manager [] surface-manager LSM {} WebOSSurfaceItem::handleWindowChanged, WebOSSurfaceItem(0x189cfc0, name="surfaceItem_com.webos.app.sport
+steamsettings_WEBOS_WINDOW_TYPE_CARD", parent=0xf51268, geometry=0,0 1920x1080) moved to window StarfishCompositorWindow(0xea71f8 active exposed, visibility=QWindow::FullScreen, flags=QFlags<Qt::Windo
+wType>(Window), title="LunaSurfaceManager - Goldfinger Edition", geometry=0,0 1920x1080)
+2024-06-03T07:50:06.359212Z [946.457840583] user.info surface-manager [] surface-manager LSM {} onLayoutInfoUpdated, [FULLSCREEN] container1.containerInfo appId - com.webos.app.sportsteamsettings, nex
+t appId-com.webos.app.sportsteamsettings, mode-normal, role-main, active-false, visible-true, surfaceItem-WebOSSurfaceItem(0x189cfc0, "surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CA
+RD")
+2024-06-03T07:50:06.359885Z [946.458514990] user.info surface-manager [] surface-manager LSM {} getForegroundAppState, [GET_FOREGORUND_APP_STATE] push_foreground_app_state:{"foregroundAppState":[{"app
+Id":"com.webos.app.sportsteamsettings","state":"fullscreen"}]}
+2024-06-03T07:50:06.360550Z [946.459174509] user.info surface-manager [] surface-manager LSM {} __applyNewLayout, [FULLSCREEN] apply new container layout  com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.361427Z [946.460053472] user.info surface-manager [] surface-manager LSM {} __fitSurfaceItemToParent, [FULLSCREEN] surface item appId = com.webos.app.sportsteamsettings, width = 19
+20, height = 1080 , previous scale factor = 1
+2024-06-03T07:50:06.364656Z [946.463287250] user.info surface-manager [] surface-manager LSM {} getForegroundWindowInfo, [GET_FOREGROUND_WINDOW_INFO] push_foreground_window_info:{"windows":[{"windowTy
+pe":"_WEBOS_WINDOW_TYPE_SPLASH","appId":"com.webos.app.splash"},{"appId":"com.webos.app.sportsteamsettings","windowType":"_WEBOS_WINDOW_TYPE_CARD"}]}
+2024-06-03T07:50:06.366403Z [946.465044620] user.info surface-manager [] surface-manager LSM {} setRecentInfo, [FULLSCREEN:Controller] status:set_recent_info, appId:com.webos.app.sportsteamsettings, c
+ustomImageFilePath:/usr/palm/applications/com.webos.app.sportsteamsettings/sys-assets/sportsteamsettings_splash.png, backgroundImageFilePath:/usr/palm/applications/com.webos.app.sportsteamsettings/sys
+-assets/sportsteamsettings_splash.png, backgroundColor:
+2024-06-03T07:50:06.371923Z [946.470550583] user.info surface-manager [] surface-manager LSM {} onActiveFocusChanged, [FULLSCREEN:focus:container] appId:com.webos.app.sportsteamsettings, activeFocus:t
+rue, surfaceItem.activeFocus:false, hasActiveGroupedItem:false
+2024-06-03T07:50:06.372744Z [946.471370213] user.info surface-manager [] surface-manager LSM {} setItemFocus, [FULLSCREEN:focus:container] setItemFocus = true for item = WebOSSurfaceItem(0x189cfc0, "s
+urfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD")
+2024-06-03T07:50:06.373302Z [946.471931953] user.info surface-manager [] surface-manager LSM {} onActiveChanged, [FULLSCREEN:focus:container] appId:com.webos.app.sportsteamsettings, activeFocus:true,
+surfaceItem.activeFocus:true, hasActiveGroupedItem:false
+2024-06-03T07:50:06.373608Z [946.472237101] user.info surface-manager [] surface-manager LSM {} onLayoutInfoUpdated, [FULLSCREEN] container1.containerInfo appId - com.webos.app.sportsteamsettings, nex
+t appId-com.webos.app.sportsteamsettings, mode-normal, role-main, active-false, visible-true, surfaceItem-WebOSSurfaceItem(0x189cfc0, "surfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CA
+RD")
+2024-06-03T07:50:06.374025Z [946.472652842] user.info surface-manager [] surface-manager LSM {} onHasFocusedSurfaceItemChanged, [FULLSCREEN:focus:container] appId:com.webos.app.sportsteamsettings, act
+iveFocus:true, surfaceItem.activeFocus:true, hasActiveGroupedItem:false
+2024-06-03T07:50:06.374163Z [946.472788064] user.info surface-manager [] surface-manager LSM {} onC1HasFocusedSurfaceItemChanged, [FULLSCREEN] onC1HasFocusedSurfaceItemChanged - appId:com.webos.app.sp
+ortsteamsettings, c1HasFocusedSurfaceItem:true
+2024-06-03T07:50:06.374797Z [946.473425583] user.info surface-manager [] surface-manager LSM {} action: on_fullscreen_focus_info_changed(virtual_touch_info),  fullscreen_app_id:  "com.webos.app.sports
+teamsettings" ,  support_virtual_touch:  false ,  support_portrait:  false ,  position_event_on_press:  false ,  short_touch_threshold:  10 ,  swipe_threshold: ( 40 ,  40 )
+2024-06-03T07:50:06.374940Z [946.473565324] user.info surface-manager [] surface-manager LSM {} action: on_fullscreen_focus_info_changed(current_view_info),  current_focused_app_id:  "com.webos.app.sp
+ortsteamsettings" ,  is_fullscreen_focused:  true ,  is_touch_supported_view_on:  true
+2024-06-03T07:50:06.375338Z [946.473965620] user.info surface-manager [] surface-manager LSM {} getFocusedWindowInfo, [GET_FOCUSED_WINDOW_INFO] push_focused_window_info:{"focusedWindowInfo":[{"appId":
+"com.webos.app.sportsteamsettings","type":"fullscreen"}]}
+2024-06-03T07:50:06.382813Z [946.481446287] user.info surface-manager [] surface-manager LSM {} getForegroundWindowInfo, [GET_FOREGROUND_WINDOW_INFO] push_foreground_window_info:{"windows":[{"appId":"
+com.webos.app.sportsteamsettings","windowType":"_WEBOS_WINDOW_TYPE_CARD"}]}
+2024-06-03T07:50:06.387191Z [946.485821768] user.info surface-manager [] surface-manager LSM {} getForegroundAppInfo, [GET_FOREGROUND_APPINFO] push_foreground_appinfo:{"foregroundAppInfo":[{"appId":"c
+om.webos.app.sportsteamsettings","displayId":0,"processId":"2091","windowType":"_WEBOS_WINDOW_TYPE_CARD","windowGroup":false,"params":{},"multiview":false,"pip":false,"primary":true,"viewType":"normal
+"}],"mode":"normal"}
+2024-06-03T07:50:06.387970Z [946.486599916] user.info surface-manager [] surface-manager LSM {} __handleNewFullscreenItem, [FULLSCREEN] __handleNewFullscreenItem item = WebOSSurfaceItem(0x189cfc0, "su
+rfaceItem_com.webos.app.sportsteamsettings_WEBOS_WINDOW_TYPE_CARD") (END)
+2024-06-03T07:50:06.388138Z [946.486763694] user.info surface-manager [] surface-manager LSM {} onSurfaceAdded, [FULLSCREEN:surface] surfaceAdded (end) com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.388810Z [946.487439546] user.info surface-manager [] LSM NL_VSC {"app_id":"com.webos.app.sportsteamsettings","visible":true,"window_type":"_WEBOS_WINDOW_TYPE_CARD"}
+2024-06-03T07:50:06.404023Z [946.502710694] user.info sam [] SAM GET_FOREGROUND_APPINFO {"ForegroundApps":[{"displayId":0,"pip":false,"processId":"2091","multiview":false,"windowType":"_WEBOS_WINDOW_T
+YPE_CARD","primary":true,"viewType":"normal","params":{},"appId":"com.webos.app.sportsteamsettings","windowGroup":false}]}
+2024-06-03T07:50:06.404371Z [946.503007361] user.info sam [] SAM GET_FOREGROUND_APPINFO {"CLOCK":946.497,"PerfType":"AppLaunch","PerfGroup":"com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:06.404528Z [946.503153138] user.info sam [] SAM GET_FOREGROUND_APPINFO {"FilteredForegroundApps":[{"displayId":0,"pip":false,"processId":"2091","multiview":false,"windowType":"_WEBOS_
+WINDOW_TYPE_CARD","primary":true,"viewType":"normal","params":{},"appId":"com.webos.app.sportsteamsettings","windowGroup":false}]}
+2024-06-03T07:50:06.404921Z [946.503546768] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"getAppLifeEvents","payload":{"event":"foreground","appId":"com.webos.app.sportsteamsettings","windowGroup":
+false,"windowType":"_WEBOS_WINDOW_TYPE_CARD","returnValue":true}}
+2024-06-03T07:50:06.405019Z [946.503643546] user.info sam [] SAM LOADING_LIST {"app_id":"com.webos.app.sportsteamsettings"} removed
+2024-06-03T07:50:06.405110Z [946.503734101] user.info sam [] SAM LIFE_STATUS {"app_id":"com.webos.app.sportsteamsettings","uid":"","current":2,"new":4} life_status_changed
+2024-06-03T07:50:06.405202Z [946.504694472] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"getAppLifeStatus","payload":{"status":"foreground","appId":"com.webos.app.sportsteamsettings","windowType":
+"_WEBOS_WINDOW_TYPE_CARD","processId":"9996","type":"web","windowGroup":false}}
+2024-06-03T07:50:06.407755Z [946.506393916] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"foregroundAppInfo","payload":{"subscribed":true,"returnValue":true,"appId":"com.webos.app.sportsteamsetting
+s","processId":"","windowId":""}}
+2024-06-03T07:50:06.407907Z [946.506533583] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"foregroundAppInfoEx","payload":{"subscribed":true,"returnValue":true,"foregroundAppInfo":[{"viewType":"norm
+al","displayId":0,"processId":"2091","windowType":"_WEBOS_WINDOW_TYPE_CARD","appId":"com.webos.app.sportsteamsettings","params":{},"windowGroup":false}]}}
+2024-06-03T07:50:06.408006Z [946.506630805] user.info voiceconductor [] VOICEFW VOICEUI_FOCUSED {"focused":"com.webos.app.sportsteamsettings"} focused changed
+2024-06-03T07:50:06.408102Z [946.506726361] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"foregroundApps","payload":{"subscribed":true,"returnValue":true,"foregroundApps":[{"appId":"com.webos.app.s
+portsteamsettings"}]}}
+2024-06-03T07:50:06.413161Z [946.511803842] user.info sam [] SAM SUBSCRIPTION_REPLY {"skey":"foregroundAppsEx","payload":{"subscribed":true,"returnValue":true,"foregroundApps":[{"displayId":0,"pip":fa
+lse,"processId":"2091","multiview":false,"windowType":"_WEBOS_WINDOW_TYPE_CARD","primary":true,"viewType":"normal","params":{},"appId":"com.webos.app.sportsteamsettings","windowGroup":false}]}}
+2024-06-03T07:50:06.413520Z [946.512210879] user.info voiceconductor [] VOICEFW VOICEUI_FOREGROUND {"foreground":"com.webos.app.sportsteamsettings"} foreground changed
+2024-06-03T07:50:06.413837Z [946.512462064] user.info eim [] EIM CALLBACK {} [adapter_eim_getForegroundAppInfo_callback:859] [{     "foregroundAppInfo": [         {             "appId": "com.webos.app
+.sportsteamsettings",             "displayId": 0,             "multiview": false,             "params": {             },             "pip": false,             "primary": true,             "processId":
+ "2091",             "viewType": "normal",             "windowGroup": false,             "windowType": "_WEBOS_WINDOW_TYPE_CARD"         }     ],     "mode": "normal",     "returnValue": true } ]
+2024-06-03T07:50:06.413967Z [946.512591398] user.info sam [] SAM FOREGROUND_INFO {"current_fullscreen_foreground_apps":"com.webos.app.sportsteamsettings","prev_fullscreen_foreground_apps":"com.webos.a
+pp.home"}
+2024-06-03T07:50:06.414059Z [946.512682694] user.info eim [] EIM CALLBACK {} adapter_eim_getForegroundAppInfo_callback, appId= com.webos.app.sportsteamsettings,len=32
+2024-06-03T07:50:06.414155Z [946.512779398] user.info iconnectivity [] ICS INFO {} [_xpa_appinfo_getForegroundAppInfoCB : 122] (RESP) => {     "foregroundAppInfo": [         {             "appId": "co
+m.webos.app.sportsteamsettings",             "displayId": 0,             "multiview": false,             "params": {             },             "pip": false,             "primary": true,             "
+processId": "2091",             "viewType": "normal",             "windowGroup": false,             "windowType": "_WEBOS_WINDOW_TYPE_CARD"         }     ],     "mode": "normal",     "returnValue": tr
+ue }  (Token:50)
+2024-06-03T07:50:06.414250Z [946.512873731] user.warning MaliitServer [] IME default {"func":"onResponse"} @@@@ root.foregroundAppId com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.417845Z [946.516483546] user.info sam [] SAM GET_FOREGROUND_APPINFO {"last foreground app id":"{"appId":"com.webos.app.sportsteamsettings"}"} stored
+2024-06-03T07:50:06.419451Z [946.518076064] user.info multiviewcontroller [] MVC MVC {} [_luna_init_callback_applicationManager_getForegroundApps_setInformation, 271] mainAppId:com.webos.app.sportstea
+msettings, subAppId:(null), viewType:(null), mode:1
+2024-06-03T07:50:06.429750Z [946.528374287] user.info multiviewcontroller [] MVC MVC {} [luna_info_setForegroundAppId, 1440] _gForegroundAppId : com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.439057Z [946.537684324] user.info multiviewcontroller [] MVC MVC {} [_controller_tv_callback_getForegroundApps, 31] Callback function is called [appId: com.webos.app.sportsteamsett
+ings]
+2024-06-03T07:50:06.439648Z [946.538272472] user.info tvrm [] TVRMSRV TVRM_INFOMGR_STATUS {"status":"app_life_status_info_updated","app_status":"foreground","app_id":"com.webos.app.sportsteamsettings"
+}
+2024-06-03T07:50:06.457313Z [946.555937435] user.info arccontroller [] arccontroller ARCCONTROLLER_INFO {} [set_foreground_info][3130] foreground info [previous:current]:[com.webos.app.home:com.webos.
+app.sportsteamsettings],  m_foreground.size[2]
+2024-06-03T07:50:06.457455Z [946.556081620] user.info arccontroller [] arccontroller ARCCONTROLLER_INFO {} [update_2depth_status] m_foreground.front()[com.webos.app.home], m_foreground.back()[com.webo
+s.app.sportsteamsettings], m_hdmiarc_appname[com.webos.app.hdmi2]
+2024-06-03T07:50:06.457567Z [946.556193064] user.info arccontroller [] arccontroller ARCCONTROLLER_INFO {} [get_foregroundapp_callback_impl][3231] foreground app info [prev:current]:[com.webos.app.hom
+e:com.webos.app.sportsteamsettings]
+2024-06-03T07:50:06.460941Z [946.559573842] user.info miracast [] MIRACAST RTSP_WBI {} _adapter_system_getForegroundAppInfo_callback (554) : fgAppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.461257Z [946.559882287] user.info pqcontroller [] pqcontroller LS2_RECEIVED {} getForegroundAppInfoResponse:{"subscribed":true,"returnValue":true,"appId":"com.webos.app.sportsteams
+ettings","processId":"","windowId":""}
+2024-06-03T07:50:06.461353Z [946.559976879] user.info pqcontroller [] pqcontroller LS2_SUBSCRIBED {} App ID was changed to com.webos.app.sportsteamsettings!!
+2024-06-03T07:50:06.462132Z [946.560766435] user.info pqcontroller [] pqcontroller PQCONTROLLER_CTRL {} updateForegroundAppInfo_AppId(com.webos.app.sportsteamsettings)
+2024-06-03T07:50:06.465699Z [946.564324472] user.info umediaserver [] ums.default APP_STATUS_UPDATE {"TIMESTAMP":946.530410287,"CODE_POINT":"<AppObserver.cpp:appLifeStatusCallback(124)>"} appLifeStatu
+sEvt: {"status":"foreground","appId":"com.webos.app.sportsteamsettings","windowType":"_WEBOS_WINDOW_TYPE_CARD","processId":"9996","type":"web","windowGroup":false}
+2024-06-03T07:50:06.465798Z [946.564422842] user.info umediaserver [] ums.default APP_STATUS_UPDATE {"TIMESTAMP":946.530633250,"CODE_POINT":"<AppObserver.cpp:foregroundAppsCallback(59)>"} fgAppsEvt: {
+"subscribed":true,"returnValue":true,"foregroundApps":[{"displayId":0,"pip":false,"processId":"2091","multiview":false,"windowType":"_WEBOS_WINDOW_TYPE_CARD","primary":true,"viewType":"normal","params
+":{},"appId":"com.webos.app.sportsteamsettings","windowGroup":false}]}
+2024-06-03T07:50:06.465892Z [946.564515916] user.info airplay-adaptor [] AIRPLAYADAPTOR AIRPLAYADAPTOR {} [luna_info_setForegroundAppId, 74] _gForegroundAppId : com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.466077Z [946.564700953] user.info airplay [] AIRPLAY AIRPLAY {} [webos_luna_info_setAppLifeStatus, 168] _gAppLifeStatus.appId : com.webos.app.sportsteamsettings, _gAppLifeStatus.st
+atus : foreground, _gAppLifeStatus.bgStatus : , _gAppLifeStatus.reason :
+2024-06-03T07:50:06.470615Z [946.569254175] user.info airplay [] AIRPLAY AIRPLAY {} [webos_luna_info_setForegroundAppId, 352] _gForegroundAppId : com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.470899Z [946.569523694] user.info asm [] ASM.COMMON API_CALLBACK {} [getForegroundAppInfoCallback] message : {"subscribed":true,"returnValue":true,"appId":"com.webos.app.sportsteam
+settings","processId":"","windowId":""}
+2024-06-03T07:50:06.470991Z [946.569614768] user.info memchute [] MM MEMMGR_SERVICE {"appId":"com.webos.app.sportsteamsettings","winType":"_WEBOS_WINDOW_TYPE_CARD","group":"F","owner":"F"} is Foregrou
+nd
+2024-06-03T07:50:06.471194Z [946.569818472] user.info appcasting [] appcasting INFOMSG {} _a_getForegroundAppInfo_callback (652) : Received json obj {"subscribed":true,"returnValue":true,"appId":"com.
+webos.app.sportsteamsettings","processId":"","windowId":""}
+2024-06-03T07:50:06.471292Z [946.569916398] user.info eim [] CEC CEC_INFO {} [INFO] [LunaCallback_Application_getAppId:3580] [{"subscribed":true,"returnValue":true,"appId":"com.webos.app.sportsteamset
+tings","processId":"","windowId":""}]
+2024-06-03T07:50:06.471385Z [946.570008657] user.info memchute [] MM MEMMGR_MULIST {"unitId":"com.webos.app.sportsteamsettings"} Foreground
+2024-06-03T07:50:06.474013Z [946.572637324] user.info btaudiosrc [] bluetooth-audio-source APM {} foreground appId(com.webos.app.sportsteamsettings)    [_adapter_appManager_registerGetForegroundAppInf
+oCB (231)]
+2024-06-03T07:50:06.476177Z [946.574802768] user.info memchute [] MM MEMMGR_LAUNCHINFO {"appId":"com.webos.app.sportsteamsettings"} reset launching info by foreground
+2024-06-03T07:50:06.476647Z [946.575270361] user.info screenmanager [] screenmanager SUBS_VALUE {} callback_getForegroundAppInfo={"subscribed":true,"returnValue":true,"appId":"com.webos.app.sportsteam
+settings","processId":"","windowId":""}
+2024-06-03T07:50:06.476740Z [946.575364509] user.info extinput-integration [] extinput-service ExtinputConfig {} [getForegroundAppId] :: appId : com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.479304Z [946.578016509] user.info extinput-integration [] extinput-service WatcherHDMI_oe39 {} [_updateForegroundInfo] :: [com.webos.app.sportsteamsettings] [oe3979u64tb82a35] is b
+ackground
+2024-06-03T07:50:06.480675Z [946.579312583] user.info extinput-integration [] extinput-service ExtinputConfig {} [getForegroundAppId] :: appId : com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.480926Z [946.579553064] user.info extinput-integration [] extinput-integration EdidControl {} [updateForegroundApp] :: Update foreground app info [com.webos.app.home -> com.webos.a
+pp.sportsteamsettings]
+2024-06-03T07:50:06.483551Z [946.582175472] user.info extinput-integration [] extinput-integration EdidControl {} [decideEdidType] :: Target app id : com.webos.app.sportsteamsettings [-1]
+2024-06-03T07:50:06.486108Z [946.584732398] user.info audiod [] AudioD FOREGROUND_APP_MANAGER {} foregroundAppManager.cpp(365): setForegroundAppState received:1 and appId is:com.webos.app.sportsteamse
+ttings and mForeGroundAppRunning is 1
+2024-06-03T07:50:06.486201Z [946.584824916] user.info nudge [] NUDGE NUDGE {} > 1/ currAppId :   [com.webos.app.sportsteamsettings]
+2024-06-03T07:50:06.487645Z [946.586269768] user.info audiod [] AudioD FOREGROUND_APP_MANAGER {} foregroundAppManager.cpp(438): setting Foreground App: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.487740Z [946.586364694] user.info audiod [] AudioD MODULE_MANAGER {} moduleManagerNotification.cpp(179): ModuleManager:notifyForegroundAppId appId:com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.487924Z [946.586547842] user.info nudge [] NUDGE NUDGE {} [INFO] [callSync:875] syncId(37) API(luna://com.webos.applicationManager/getAppInfo), payload({"id" : "com.webos.app.sport
+steamsettings"})
+2024-06-03T07:50:06.488048Z [946.586672287] user.info audiod [] AudioD DOLBY_MANAGER {} dolbyManager.cpp(339): DolbyManager:setting Foreground AppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.488138Z [946.586761916] user.info audiod [] AudioD HEADPHONE_DETECTION_MANAGER {} headPhoneDetectionManager.cpp(427): eventForegroundAppId, appId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.488316Z [946.586940175] user.info audiod [] AudioD MASTER_VOLUME_MANAGER {} masterVolumeUtil.cpp(439): MasterVolumeManager: setting Foreground AppId: com.webos.app.sportsteamsettin
+gs
+2024-06-03T07:50:06.489771Z [946.588405953] user.info audiod [] AudioD DOLBY_MANAGER {} tvManager.cpp(2072): TVManager:setting Foreground AppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.490181Z [946.588805027] user.info audiod [] AudioD QUALITY_MANAGER {} qualityManager.cpp(1364): QualityManager:setting Foreground AppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.490273Z [946.588896657] user.info audiod [] AudioD FOREGROUND_APP_MANAGER {} foregroundAppManager.cpp(379): Call getSystemSettings with params: {"category":"sound","app_id":"com.we
+bos.app.sportsteamsettings","keys":["TTSMixingRatio","forceOutputDDPLUS"]}
+2024-06-03T07:50:06.496046Z [946.594681953] user.info audiod [] AudioD MODULE_MANAGER {} moduleManagerNotification.cpp(179): ModuleManager:notifyForegroundAppId appId:com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.496257Z [946.594881694] user.info audiod [] AudioD DOLBY_MANAGER {} dolbyManager.cpp(339): DolbyManager:setting Foreground AppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.496348Z [946.594972435] user.info audiod [] AudioD HEADPHONE_DETECTION_MANAGER {} headPhoneDetectionManager.cpp(427): eventForegroundAppId, appId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.496706Z [946.595330657] user.info audiod [] AudioD MASTER_VOLUME_MANAGER {} masterVolumeUtil.cpp(439): MasterVolumeManager: setting Foreground AppId: com.webos.app.sportsteamsettin
+gs
+2024-06-03T07:50:06.498176Z [946.596814620] user.info audiod [] AudioD DOLBY_MANAGER {} tvManager.cpp(2072): TVManager:setting Foreground AppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.500257Z [946.598890509] user.info audiod [] AudioD QUALITY_MANAGER {} qualityManager.cpp(1364): QualityManager:setting Foreground AppId: com.webos.app.sportsteamsettings
+2024-06-03T07:50:06.500430Z [946.599058805] user.info audiod [] AudioD FOREGROUND_APP_MANAGER {} foregroundAppManager.cpp(312): updateLastForegroundAppId Current App[1] [com.webos.app.sportsteamsettin
+gs]
+2024-06-03T07:50:06.502847Z [946.601471027] user.info videooutputd [] videooutputd DEBUG {} handleResponseCb() GetAppId: multiview(0), mainApp.appId(com.webos.app.sportsteamsettings), subApp.appId(def
+ault), message({"subscribed":true,"returnValue":true,"foregroundApps":[{"displayId":0,"pip":false,"processId":"2091","multiview":false,"windowType":"_WEBOS_WINDOW_TYPE_CARD","primary":true,"viewType":
+"normal","params":{},"appId":"com.webos.app.sportsteamsettings","windowGroup":false}]})
+2024-06-03T07:50:06.504651Z [946.603277509] user.info videooutputd [] videooutputd DEBUG {} getDimensionInput() [DimensionInfo] curInput[default], spCurForegroundAppID[com.webos.app.sportsteamsettings
+], contentType[hdmi1], dvrStatus[0], dvrInput[dtv], timingMode[PC], sp444Bypass[0]
+2024-06-03T07:50:06.504851Z [946.603475879] user.info videooutputd [] videooutputd DEBUG {} changedSettingsDimensionInfo() [DimensionInfo] [bChanged:0] inputDim[default->default], resolutionDim[fhd->f
+hd], timing[PC->PC], overlapTiming[1->1] clientId[oe3979u64tb82a35->oe3979u64tb82a35], content[hdmi1->hdmi1], h[1080->1080], dvrStatus[0->0], dvrInput[dtv->dtv], spCurForegroundAppID[com.webos.app.hom
+e->com.webos.app.sportsteamsettings] 444Bypass[0->0]
+2024-06-03T07:50:06.504946Z [946.603570546] user.info videooutputd [] videooutputd DEBUG {} changedSettingsAppId() [DimensionInfo][AppId] [bChanged:1] spCurForegroundAppID [com.webos.app.home->com.web
+os.app.sportsteamsettings]
+2024-06-03T07:50:06.505070Z [946.603694175] user.info videooutputd [] videooutputd DEBUG {} fetchAspectRatioforApp() subscribe aspect ratio category to settings service by [appID:com.webos.app.sportst
+eamsettings]
+2024-06-03T07:50:06.506620Z [946.605246731] user.info videooutputd [] videooutputd DEBUG {} getDimensionInput() [DimensionInfo] curInput[default], spCurForegroundAppID[com.webos.app.sportsteamsettings
+], contentType[hdmi1], dvrStatus[0], dvrInput[dtv], timingMode[PC], sp444Bypass[0]
+2024-06-03T07:50:06.506724Z [946.605348620] user.info btaudiosnk [] bluetooth-audio-sink APPMANAGER {} appsArray[0], windowType:[_WEBOS_WINDOW_TYPE_CARD], foregroundAppId:[com.webos.app.sportsteamsett
+ings]    [_adapter_appManager_getForegroundAppsCB (173)]
+2024-06-03T07:50:06.507175Z [946.605798657] user.info btaudiosnk [] bluetooth-audio-sink APPMANAGER {} gForegroundAppId : [com.webos.app.sportsteamsettings]    [_adapter_appManager_getForegroundAppsCB
+ (206)]
+2024-06-03T07:50:06.509209Z [946.607832842] user.info videooutputd [] videooutputd DEBUG {} requestPQset() [SentLsToken] {"video":{"displayOutput":{"width":0,"y":0,"x":0,"height":0},"444bypassPath":fa
+lse,"sourceInput":{"width":1920,"y":0,"x":0,"height":1080},"winMode":"none","fullScreen":false,"frameRate":60,"scanType":"progressive","connected":false,"height":1080,"connectedSourcePort":0,"context"
+:"oe3979u64tb82a35","inputDimension":"default","videoInfo":null,"sink":"MAIN","connectedSource":"HDMI","width":1920,"appId":"com.webos.app.sportsteamsettings","videoData":false,"contentType":"hdmi1"}}
+2024-06-03T07:50:06.511288Z [946.609912657] user.info accountmanager [] accountmanager ACCOUNT {} [onForegroundAppsReceived:353] responsePayload: {"subscribed":true,"returnValue":true,"foregroundApps"
+:[{"displayId":0,"pip":false,"processId":"2091","multiview":false,"windowType":"_WEBOS_WINDOW_TYPE_CARD","primary":true,"viewType":"normal","params":{},"appId":"com.webos.app.sportsteamsettings","wind
+owGroup":false}]}
+2024-06-03T07:50:06.511381Z [946.610005250] user.info accountmanager [] accountmanager ACCOUNT {} [onForegroundAppsReceived:378] push_back foreground app [com.webos.app.sportsteamsettings]
+2024-06-03T07:50:06.511562Z [946.610185694] user.debug webos-preload-manager [] webos-preload-manager DBGMSG {} onGetForegroundApps (com.webos.app.sportsteamsettings)
+2024-06-03T07:50:06.513073Z [946.611698657] user.info pbs [] PBS src/Channel.cpp {} set:121] put property [foregroundAppID] value ["com.webos.app.sportsteamsettings"]
+2024-06-03T07:50:06.513258Z [946.611882138] user.info surface-manager [] LSM KEYFILTER_APPLAUNCH {"cb_getForegroundApps":"appId -> com.webos.app.sportsteamsettings"}
+2024-06-03T07:50:06.513347Z [946.611971212] user.info surface-manager [] LSM KEYFILTER_APPLAUNCH {"cb_getForegroundApps":"com.webos.app.sportsteamsettings is foreground app."}
+2024-06-03T07:50:06.513494Z [946.612119879] user.info pqcontroller [] pqcontroller LS2_RECEIVED {} setPQ:{"video":{"444bypassPath":false,"displayOutput":{"width":0,"y":0,"x":0,"height":0},"sourceInput
+":{"width":1920,"y":0,"x":0,"height":1080},"winMode":"none","fullScreen":false,"frameRate":60,"scanType":"progressive","connected":false,"height":1080,"connectedSourcePort":0,"context":"oe3979u64tb82a
+35","inputDimension":"default","videoInfo":null,"sink":"MAIN","width":1920,"connectedSource":"HDMI","appId":"com.webos.app.sportsteamsettings","videoData":false,"contentType":"hdmi1"}}
+2024-06-03T07:50:06.521981Z [946.620605842] user.info miracast [] MIRACAST RTSP_WBI {} common_setFgApp (277) : Foreground: com.webos.app.sportsteamsettings (15 -> 15), minimal app 0
+2024-06-03T07:50:06.522076Z [946.620700324] user.info nudge [] NUDGE NUDGE {} [INFO] [callSync:875] syncId(38) API(luna://com.webos.applicationManager/getAppInfo), payload({"id" : "com.webos.app.sport
+steamsettings"})
+2024-06-03T07:50:06.523134Z [946.621757953] user.info SettingsService [] SettingsService PrefsPerAppHandler {"m_currAppId":"com.webos.app.sportsteamsettings","m_prevAppId":"com.webos.app.home"} handle
+AppChange
+2024-06-03T07:50:06.523307Z [946.621931768] user.info pqcontroller [] pqcontroller LS2_RECEIVED {} getSystemSettingsResponse:{"subscribed":true,"category":"picture","method":"getSystemSettings","app_i
+d":"com.webos.app.sportsteamsettings","dimension":{"pictureMode":"eco","input":"default","_3dStatus":"2d"},"settings":{"truMotionMode":"natural"},"returnValue":true}
+2024-06-03T07:50:06.523591Z [946.622214842] user.info audiod [] AudioD PARSE_JSON {} messageUtils.cpp(85): Received: _foregroundAppInputDataCallback: got '{"subscribed":false,"category":"sound","metho
+d":"getSystemSettings","app_id":"com.webos.app.sportsteamsettings","dimension":{},"settings":{"forceOutputDDPLUS":"false","TTSMixingRatio":"0"},"returnValue":true}'
+2024-06-03T07:50:06.523783Z [946.622407435] user.info audiod [] AudioD FOREGROUND_APP_MANAGER {} foregroundAppManager.cpp(453): setting Foreground App Input Volume received: 0, mForegroundAppId: com.w
+ebos.app.sportsteamsettings
+2024-06-03T07:50:06.528486Z [946.627126027] user.info videooutputd [] videooutputd DEBUG {} setAspectRatioSettingsValue() Aspect Ratio configured as : aspectRatioMode: 1, alldirZooms: 0 12 0 12, VertZ
+ooms:0 0, inputDim:default(24), app_id:com.webos.app.sportsteamsettings, category:aspectRatio
+2024-06-03T07:50:06.528696Z [946.627324657] user.info videooutputd [] videooutputd DEBUG {} setAspectRatioSettingsValue() Aspect Ratio configured as : justscan:1, inputDim:default(24), resolutionDim:f
+hd(1), app_id:com.webos.app.sportsteamsettings, category:aspectRatio
+2024-06-03T07:50:06.649101Z [946.747735916] user.info sdx [] sdx.logging LOG_SERVER_API {} request [68] reply url: app/list/003/006, serviceName: sdp_apps_secure, method: REQ_SSL_GET_METHOD, caller: c
+om.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:06.651029Z [946.749655583] user.info sdx [] sdx.logging SDX {} _setup_for_communication: serviceName: iot_sports_secure
+2024-06-03T07:50:06.651710Z [946.750333916] user.info sdx [] sdx.logging SDX {} _setup_for_communication: url: https://qt2-KIC.sports.lgtviot.com/v4.0/checkTournamentStatus
+2024-06-03T07:50:06.665355Z [946.763989064] user.info WebAppMgr [] WAM WINDOW_STATE_CHANGED {"APP_ID":"com.webos.app.sportsteamsettings"} To FullScreen; call onStageActivated
+2024-06-03T07:50:06.665568Z [946.764195509] user.info WebAppMgr [] WAM GENERAL {"APP_ID":"com.webos.app.sportsteamsettings"} To FullScreen; call onStageActivated()
+2024-06-03T07:50:06.668363Z [946.767002286] user.info WebAppMgr [] WAM WINDOW_FOCUSIN {"CLOCK":946.765,"PerfType":"AppLaunch","PerfGroup":"com.webos.app.sportsteamsettings","APP_ID":"com.webos.app.spo
+rtsteamsettings"}
+2024-06-03T07:50:06.921954Z [947.020592138] user.info sdx [] sdx.logging LOG_SERVER_API {} request [68] reply url: checkTournamentStatus, serviceName: iot_sports_secure, method: REQ_SSL_POST_METHOD, c
+aller: com.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:06.941322Z [947.039957768] user.info sdx [] sdx.logging LOG_SERVER_API {} _send [153] request url: getSportProgramList, serviceName: iot_sports_secure, method: REQ_SSL_POST_METHOD, ca
+ller: com.webos.app.sportsteamsettings-2091
+2024-06-03T07:50:06.942763Z [947.041391471] user.info sdx [] sdx.logging SDX {} _setup_for_communication: serviceName: iot_sports_secure
+2024-06-03T07:50:06.943187Z [947.041812249] user.info sdx [] sdx.logging SDX {} _setup_for_communication: url: https://qt2-KIC.sports.lgtviot.com/v4.0/getSportProgramList
+2024-06-03T07:50:07.907925Z [948.006563693] user.info sdx [] sdx.logging LOG_SERVER_API {} request [68] reply url: getSportProgramList, serviceName: iot_sports_secure, method: REQ_SSL_POST_METHOD, cal
+ler: com.webos.app.sportsteamsettings-2091
